@@ -20,7 +20,9 @@ defmodule EctoLock.BillPendingInvoices do
   end
 
   def get_invoice(id) do
-    Repo.get(Invoice, id)
+    Invoice
+    |> Invoice.get_and_lock_invoice(id)
+    |> Repo.one()
   end
 
   def bill_through_api(invoice) do
