@@ -1,6 +1,6 @@
 # EctoLock
 
-This is a companion repository for my [Database Locking with Ecto in Elixir](Database Locking with Ecto in Elixir) blog post.
+This is a companion repository for my [Database Locking with Ecto in Elixir](https://medium.com/flatiron-labs/database-locking-with-ecto-in-elixir-9804cdbd1866) blog post.
 
 ## Installation
 
