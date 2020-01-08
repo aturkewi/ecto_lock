@@ -1,21 +1,18 @@
 # EctoLock
 
-**TODO: Add description**
+This is a companion repository for my [Database Locking with Ecto in Elixir](Database Locking with Ecto in Elixir) blog post.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ecto_lock` to your list of dependencies in `mix.exs`:
+### Prerequisites:
 
-```elixir
-def deps do
-  [
-    {:ecto_lock, "~> 0.1.0"}
-  ]
-end
-```
+- Ensure Postgres is installed and running
+- Ensure Elixir 1.7 or higher is installed
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ecto_lock](https://hexdocs.pm/ecto_lock).
+### Setup
 
+- `mix deps.get`
+- `mix ecto.create`
+- `mix ecto.migrate`
+
+You're all set! Feel free to hop into an iex session (`iex -S mix`) to play around!
